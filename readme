@@ -1,10 +1,24 @@
-In this project, we are going to build up a convolutional neural network (CNN) to be trained on training dataset (including 4000 images of dog and 4000 images of cat), 
-and then be tested on the test dataset including 1000 images of dog and 1000 images of cat (for the sake of evaluation). 
-Finally, we are have inputed our model with images in "single_prediction" folder in order to classify the image as a dog or cat (making prediction using your model).
+1. Installations
+This project was developed in Python using Jupyter Notebook on Anaconda. The relevant Python packages for this project include:
+•	tensorflow
+•	numpy
+•	pandas
+•	matplotlib
+•	os
+•	sklearn.model_selection (train_test_split module)
 
-To build our CNN model, we have used TensorFlow (integrated with Keras). Keras is built inside the TensorFlow package. 
-Initially developed as an independent high-level neural networks API, Keras was later integrated into TensorFlow as its official high-level API for building and 
-training deep learning models. This integration allows Keras to leverage TensorFlow's powerful backend, which includes efficient computation and 
-support for distributed training, while providing an easy-to-use interface for developers. Keras simplifies the process of designing complex neural networks 
-with just a few lines of code, making it accessible to beginners and experienced practitioners alike.While Keras can also be used with other backends, 
-its integration with TensorFlow has made it the default API within the TensorFlow ecosystem.
+2. Project Motivation
+This project is focused on image classification using Convolutional Neural Networks (CNNs). The primary objective is to classify images into two categories: cats and dogs. By leveraging deep learning techniques, this project aims to enhance accuracy and efficiency in image recognition tasks.
+The dataset used consists of 10,000 images, with 8,000 for training and 2,000 for testing. The model is designed to learn the features of the images through multiple convolutional layers, pooling layers, and dense layers.
+
+3. File Descriptions
+This project contains the following key files:
+•	CNN_for_Image_Classification.ipynb: The main Jupyter Notebook containing the CNN implementation and results.
+
+4. Results
+The model achieved an accuracy of approximately 82% on the test set after 10 epochs of training. Detailed findings and visualizations of the model's predictions can be found in the full report on Medium : 
+LINK https://medium.com/@shashankr2322/building-a-convolutional-neural-network-for-image-classification-1be6c1cfdba0
+
+5. Licensing, Authors, Acknowledgements, etc.
+The dataset used for this project is publicly available.Special thanks to the TensorFlow community for their extensive documentation and resources.
+
